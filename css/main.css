@@ -4,6 +4,10 @@
    Author's custom styles
    ========================================================================== */
 
+div.row {
+    margin-right: 0px;
+}
+   
 body{
 font-family: 'Roboto Condensed', sans-serif;
 }
@@ -148,7 +152,7 @@ font-weight: bold;
 } */
 .history{
   background-color: #FFFFFF;
-  margin: 100px 220px 50px 320px ;
+  margin: 100px 0px 50px 0px ;
 
 }
 .history p{
@@ -177,7 +181,7 @@ font-weight: bold;
 
 .icons i{
   color: #000000ba;
-  padding: 100px 200px 100px 100px;
+  padding: 100px 260px 100px 50px;
   display: inline-flex;
 
 }
@@ -203,6 +207,7 @@ font-weight: bold;
   color: #FFFFFF;
   font-style: normal;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .ref-images{
@@ -223,7 +228,7 @@ font-weight: bold;
   width: 851px;
 }
 
-#images p{
+div.text-on-img p{
   position: absolute;
   top: 61%;
   left: 43%;
@@ -263,4 +268,14 @@ footer p{
 #copy-right {
   margin-top: 40px;
 
+}
+
+#icon-container {
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  #icon-container {
+    padding-left: 6%;
+  }   
 }
